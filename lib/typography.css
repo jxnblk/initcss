@@ -1,0 +1,59 @@
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+h1 { font-size: 2rem }
+h2 { font-size: 1.5rem }
+h3 { font-size: 1.25rem }
+h4 { font-size: 1rem }
+h5 { font-size: .875rem }
+h6 { font-size: .75rem }
+
+p, dl, ol, ul, pre, blockquote {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+ol, ul {
+  padding-left: 2.5em;
+}
+
+code,
+samp,
+pre {
+  font-family: Menlo, monospace;
+}
+
+code, samp {
+  font-size: inherit;
+  padding: .125em;
+  background-color: rgba(0, 0, 0, .0625);
+  border-radius: 3px;
+}
+
+pre {
+  font-size: inherit;
+  padding-left: 1em;
+  overflow: auto;
+  border-left: 3px solid rgba(0, 0, 0, .25);
+}
+
+blockquote {
+  font-size: 1.25rem;
+  font-style: italic;
+  margin-left: 0;
+  padding-left: 1em;
+  border-left: 3px solid rgba(0, 0, 0, .25);
+}
+
+hr {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .25);
+}

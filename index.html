@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <title>Initialize CSS</title>
+    <link rel='stylesheet' href='docs/normalize.css' />
+    <link rel='stylesheet' href='lib/initialize.css' />
+  </head>
+  <body style='max-width: 64em; margin: auto; padding: 1.5rem;'>
+    <header>
+      <h1>Initialize CSS</h1>
+      <p>Smart defaults for styling websites</p>
+    </header>
+    <hr />
+    <main>
+      <blockquote>
+        <b>initialize |iˈniSHəˌlīz|</b>
+        – set to the value or put in the condition appropriate to the start of an operation: the counter is initialized to one.
+      </blockquote>
+      <p>
+        Use these base styles for body, typography, buttons, forms, and tables in combination with Normalize CSS and other libraries like Basscss or Tachyons to quickly build out sites without the bloat of larger CSS frameworks.
+      </p>
+      <hr />
+      <h2>Typography</h2>
+      <h1>Hello 1</h1>
+      <h2>Hello 2</h2>
+      <h3>Hello 3</h3>
+      <h4>Hello 4</h4>
+      <h5>Hello 5</h5>
+      <h6>Hello 6</h6>
+      <ul>
+        <li>Two</li>
+        <li>Four</li>
+        <li>Eight</li>
+        <li>Sixteen</li>
+        <li>Thirty-Two</li>
+      </ul>
+      <ol>
+        <li>Two</li>
+        <li>Four</li>
+        <li>Eight</li>
+        <li>Sixteen</li>
+        <li>Thirty-Two</li>
+      </ol>
+      <blockquote>This is a blockquote</blockquote>
+      <pre>This is some preformatted text.</pre>
+      <p>
+        This is a <code>code</code> tag and a <samp>samp</samp> tag.
+      </p>
+      <hr />
+      <h2>Forms</h2>
+      <form>
+        <fieldset>
+          <legend>Legend</legend>
+          <label for='input'>Input</label>
+          <input name='input' type='text' />
+          <label for='textarea'>Textarea</label>
+          <textarea name='textarea'></textarea>
+          <label for='select'>Select</label>
+          <select name='select'>
+            <option value='2'>Two</option>
+            <option value='4'>Four</option>
+            <option value='8'>Eight</option>
+            <option value='16'>Sixteen</option>
+            <option value='32'>Thirty-Two</option>
+          </select>
+          <label>
+            <input type='checkbox' />
+            I would like to receive more kittens
+          </label>
+          <label>
+            <input name='radio' type='radio' />
+            Radio One
+          </label>
+          <label>
+            <input name='radio' type='radio' />
+            Radio Two
+          </label>
+          <button>Button</button>
+        </fieldset>
+      </form>
+      <hr />
+      <h2>Tables</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Animal</th>
+            <th>Sound</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cat</td>
+            <td>Meow</td>
+          </tr>
+          <tr>
+            <td>Dog</td>
+            <td>Woof</td>
+          </tr>
+          <tr>
+            <td>Cow</td>
+            <td>Moo</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr />
+      <h2>Images</h2>
+      <img src='http://lorempixel.com/1024/576/cats/' />
+    </main>
+    <hr />
+    <footer>
+      <pre>npm i initialize-css</pre>
+      <p>
+        <a href='http://github.com/jxnblk/initialize-css'>GitHub</a>
+        |
+        <a href='http://jxnblk.com'>Made by Jxnblk</a>
+      </p>
+    </footer>
+  </body>
+  <script>
+    var form = document.querySelector('form')
+    var button = document.querySelector('button')
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+    })
+    button.addEventListener('click', function (e) {
+      e.preventDefault();
+    })
+  </script>
+</html>

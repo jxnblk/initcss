@@ -1,0 +1,25 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  color: #111;
+  background-color: white;
+}
+
+a {
+  color: #07c;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  max-height: 100%;
+}

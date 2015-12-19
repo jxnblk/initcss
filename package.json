@@ -1,0 +1,42 @@
+{
+  "name": "initialize-css",
+  "version": "1.0.0-beta1",
+  "description": "Simple, opinionated base styles for building websites",
+  "main": "index.js",
+  "scripts": {
+    "normalize": "postcss node_modules/normalize.css/normalize.css -u cssnano -o docs/normalize.css",
+    "build": "postcss -c postcss.config.json src/*.css",
+    "minify": "postcss lib/initialize.css -u cssnano -o lib/initialize.min.css",
+    "watch": "postcss src/*.css -w -c postcss.config.json",
+    "prepublish": "npm run build && npm run minify",
+    "karma": "karma start --watch --single-run=false",
+    "test": "karma start --single-run"
+  },
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.1.2",
+    "babel": "^6.3.13",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "chai": "^3.4.1",
+    "cssnano": "^3.4.0",
+    "expect": "^1.13.2",
+    "karma": "^0.13.15",
+    "karma-chai": "^0.1.0",
+    "karma-chai-plugins": "^0.6.1",
+    "karma-cli": "^0.1.1",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-mocha": "^0.2.1",
+    "karma-mocha-reporter": "^1.1.3",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.3.4",
+    "normalize.css": "^3.0.3",
+    "postcss-cli": "^2.3.2",
+    "postcss-color-function": "^2.0.0",
+    "postcss-custom-properties": "^5.0.0",
+    "postcss-import": "^7.1.3",
+    "webpack": "^1.12.9"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "use": [
+    "postcss-import",
+    "postcss-custom-properties",
+    "postcss-color-function",
+    "autoprefixer"
+  ],
+  "dir": "lib"
+}

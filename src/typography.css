@@ -1,0 +1,61 @@
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-weight: var(--bold);
+  line-height: 1.25;
+  margin-top: var(--scale-2);
+  margin-bottom: var(--scale-1);
+}
+
+h1 { font-size: var(--h1) }
+h2 { font-size: var(--h2) }
+h3 { font-size: var(--h3) }
+h4 { font-size: var(--h4) }
+h5 { font-size: var(--h5) }
+h6 { font-size: var(--h6) }
+
+p, dl, ol, ul, pre, blockquote {
+  margin-top: var(--scale-2);
+  margin-bottom: var(--scale-2);
+}
+
+ol, ul {
+  padding-left: var(--scale-4);
+}
+
+code,
+samp,
+pre {
+  font-family: Menlo, monospace;
+}
+
+code, samp {
+  font-size: inherit;
+  padding: var(--scale-0);
+  background-color: var(--darken-1);
+  border-radius: var(--radius);
+}
+
+pre {
+  font-size: inherit;
+  padding-left: var(--scale-2);
+  overflow: auto;
+  border-left: 3px solid var(--darken-2);
+}
+
+blockquote {
+  font-size: var(--h3);
+  font-style: italic;
+  margin-left: 0;
+  padding-left: var(--scale-2);
+  border-left: 3px solid var(--darken-2);
+}
+
+hr {
+  margin-top: var(--scale-3);
+  margin-bottom: var(--scale-3);
+  border: 0;
+  border-bottom: 1px solid var(--darken-2);
+}
+
+@import 'defaults.css';

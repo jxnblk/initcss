@@ -1,0 +1,20 @@
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: var(--bold);
+  height: var(--scale-4);
+  margin: 0;
+  padding: var(--scale-1) var(--scale-2);
+  border: 0;
+  border-radius: var(--radius);
+  color: white;
+  background-color: var(--blue);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px color(var(--blue) a(.5));
+}
+
+@import 'defaults.css';

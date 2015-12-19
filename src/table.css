@@ -1,0 +1,31 @@
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+th,
+td {
+  padding: var(--scale-1) 0;
+  line-height: inherit;
+}
+
+th {
+  text-align: left;
+  font-weight: var(--bold);
+  vertical-align: bottom;
+  border-bottom: 3px solid var(--darken-2);
+}
+
+td {
+  vertical-align: top;
+  border-bottom: 1px solid var(--darken-2);
+}
+
+tr:last-child td {
+  border-bottom: 0;
+}
+
+@import 'defaults.css';
