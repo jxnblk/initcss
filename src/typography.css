@@ -32,30 +32,24 @@ pre {
 code, samp {
   font-size: inherit;
   padding: var(--scale-0);
-  background-color: var(--darken-1);
-  border-radius: var(--radius);
 }
 
 pre {
   font-size: inherit;
-  padding-left: var(--scale-2);
   overflow: auto;
-  border-left: 3px solid var(--darken-2);
 }
 
 blockquote {
   font-size: var(--h3);
   font-style: italic;
   margin-left: 0;
-  padding-left: var(--scale-2);
-  border-left: 3px solid var(--darken-2);
 }
 
 hr {
   margin-top: var(--scale-3);
   margin-bottom: var(--scale-3);
   border: 0;
-  border-bottom: 1px solid var(--darken-2);
+  border-bottom: 1px solid;
 }
 
 @import 'defaults.css';

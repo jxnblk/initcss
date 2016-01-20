@@ -32,28 +32,22 @@ pre {
 code, samp {
   font-size: inherit;
   padding: .125em;
-  background-color: rgba(0, 0, 0, .0625);
-  border-radius: 3px;
 }
 
 pre {
   font-size: inherit;
-  padding-left: 1em;
   overflow: auto;
-  border-left: 3px solid rgba(0, 0, 0, .25);
 }
 
 blockquote {
   font-size: 1.25rem;
   font-style: italic;
   margin-left: 0;
-  padding-left: 1em;
-  border-left: 3px solid rgba(0, 0, 0, .25);
 }
 
 hr {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   border: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, .25);
+  border-bottom: 1px solid;
 }
