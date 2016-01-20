@@ -16,12 +16,12 @@ th {
   text-align: left;
   font-weight: var(--bold);
   vertical-align: bottom;
-  border-bottom: 3px solid var(--darken-2);
+  border-bottom: 1px solid;
 }
 
 td {
   vertical-align: top;
-  border-bottom: 1px solid var(--darken-2);
+  border-bottom: 1px solid;
 }
 
 tr:last-child td {

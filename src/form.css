@@ -31,15 +31,6 @@ textarea {
   width: 100%;
 }
 
-/*
-input:focus,
-textarea:focus,
-select:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px color(var(--blue) a(.5));
-}
-*/
-
 label {
   font-size: var(--h5);
   font-weight: var(--bold);
@@ -56,9 +47,6 @@ input[type=text] {
   margin-bottom: var(--scale-2);
   border-radius: var(--radius);
   border: 1px solid;
-  /*
-  border: 1px solid var(--darken-2);
-  */
 }
 
 input[type=checkbox] {

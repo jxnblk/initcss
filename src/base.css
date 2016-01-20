@@ -7,12 +7,6 @@ body {
   font-family: -apple-system, sans-serif;
   line-height: 1.5;
   margin: 0;
-  color: var(--black);
-  background-color: white;
-}
-
-a {
-  color: var(--blue);
 }
 
 img {

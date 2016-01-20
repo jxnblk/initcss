@@ -16,16 +16,14 @@ th {
   text-align: left;
   font-weight: 700;
   vertical-align: bottom;
-  border-bottom: 3px solid rgba(0, 0, 0, .25);
+  border-bottom: 1px solid;
 }
 
 td {
   vertical-align: top;
-  border-bottom: 1px solid rgba(0, 0, 0, .25);
+  border-bottom: 1px solid;
 }
 
 tr:last-child td {
   border-bottom: 0;
 }
-
-/* Deprecated */
