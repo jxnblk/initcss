@@ -1,9 +1,16 @@
-# initialize-css
+# initcss
 
-http://jxnblk.com/initialize-css
+http://jxnblk.com/initcss
 
 ```
-npm i initialize-css
+npm i initcss
 ```
 
 MIT License
+
+---
+
+Notes:
+
+- Remove all color styles?
+- Spacing utils for docs

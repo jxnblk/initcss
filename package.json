@@ -1,12 +1,12 @@
 {
-  "name": "initialize-css",
+  "name": "initcss",
   "version": "1.0.0-beta1",
   "description": "Simple, opinionated base styles for building websites",
   "main": "index.js",
   "scripts": {
     "normalize": "postcss node_modules/normalize.css/normalize.css -u cssnano -o docs/normalize.css",
     "build": "postcss -c postcss.config.json src/*.css",
-    "minify": "postcss lib/initialize.css -u cssnano -o lib/initialize.min.css",
+    "minify": "postcss lib/init.css -u cssnano -o lib/init.min.css",
     "watch": "postcss src/*.css -w -c postcss.config.json",
     "prepublish": "npm run build && npm run minify",
     "karma": "karma start --watch --single-run=false",

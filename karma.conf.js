@@ -7,7 +7,7 @@ module.exports = function (config) {
 
     files: [
       'test/index.js',
-      'lib/initialize.css'
+      'lib/init.css'
     ],
 
     frameworks: [

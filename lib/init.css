@@ -1,4 +1,4 @@
-/*! initialize-css */
+/*! initcss */
 
 * {
   box-sizing: border-box;
@@ -26,7 +26,7 @@ svg {
 }
 h1, h2, h3,
 h4, h5, h6 {
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: .5em;
@@ -85,7 +85,7 @@ hr {
 button {
   font-family: inherit;
   font-size: inherit;
-  font-weight: 600;
+  font-weight: 700;
   height: 2.5em;
   margin: 0;
   padding: .5em 1em;
@@ -119,7 +119,7 @@ fieldset {
 
 legend {
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 700;
   padding: 0;
 }
 
@@ -140,7 +140,7 @@ select:focus {
 
 label {
   font-size: .875rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-top: 1em;
   margin-bottom: .5em;
   display: -webkit-box;
@@ -220,7 +220,7 @@ td {
 
 th {
   text-align: left;
-  font-weight: 600;
+  font-weight: 700;
   vertical-align: bottom;
   border-bottom: 3px solid rgba(0, 0, 0, .25);
 }
