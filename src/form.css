@@ -31,12 +31,14 @@ textarea {
   width: 100%;
 }
 
+/*
 input:focus,
 textarea:focus,
 select:focus {
   outline: none;
   box-shadow: 0 0 0 3px color(var(--blue) a(.5));
 }
+*/
 
 label {
   font-size: var(--h5);
@@ -52,8 +54,11 @@ input[type=text] {
   height: var(--scale-4);
   padding: var(--scale-1);
   margin-bottom: var(--scale-2);
-  border: 1px solid var(--darken-2);
   border-radius: var(--radius);
+  border: 1px solid;
+  /*
+  border: 1px solid var(--darken-2);
+  */
 }
 
 input[type=checkbox] {
@@ -73,27 +78,16 @@ input[type=radio] {
 textarea {
   padding: var(--scale-1);
   margin-bottom: var(--scale-2);
-  border: 1px solid var(--darken-2);
   border-radius: var(--radius);
+  border: 1px solid;
 }
 
 select {
-  appearance: none;
   height: var(--scale-4);
   padding: var(--scale-1);
   margin-bottom: var(--scale-2);
-  color: inherit;
-  background-color: white;
-  border: 1px solid var(--darken-2);
   border-radius: var(--radius);
-  background-image:
-    linear-gradient(45deg, transparent 50%, var(--black) 50%),
-    linear-gradient(135deg, var(--black) 50%, transparent 50%);
-  background-position:
-    calc(100% - 14px) var(--scale-2),
-    calc(100% - 7px) var(--scale-2);
-  background-size: 7px 7px, 7px 7px;
-  background-repeat: no-repeat;
+  border: 1px solid;
 }
 
 @import 'defaults.css';

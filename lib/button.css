@@ -16,3 +16,5 @@ button:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgba(0, 119, 204, 0.5);
 }
+
+/* Deprecated */
