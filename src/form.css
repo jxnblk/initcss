@@ -36,9 +36,6 @@ label {
   font-weight: var(--bold);
   margin-top: var(--scale-2);
   margin-bottom: var(--scale-1);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
 }
 
 input[type=text] {

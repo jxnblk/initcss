@@ -5,7 +5,14 @@
 }
 
 body {
-  font-family: -apple-system, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Helvetica Neue',
+    Helvetica,
+    sans-serif;
   line-height: 1.5;
   margin: 0;
 }
@@ -117,17 +124,6 @@ label {
   font-weight: 700;
   margin-top: 1em;
   margin-bottom: .5em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 input[type=text] {
