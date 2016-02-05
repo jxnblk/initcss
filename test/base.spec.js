@@ -12,7 +12,7 @@ describe('base.css', () => {
 
   it('should set body font-family', () => {
     const style = window.getComputedStyle(body)
-    expect(style.fontFamily).toBe('-apple-system,sans-serif')
+    expect(style.fontFamily).toBe('-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Helvetica Neue",Helvetica,sans-serif')
   })
 
   it('should set body line-height', () => {
@@ -23,15 +23,6 @@ describe('base.css', () => {
   it('should set body margin', () => {
     const style = window.getComputedStyle(body)
     expect(style.marginTop).toBe('0px')
-  })
-
-  it('should set body color', () => {
-    const style = window.getComputedStyle(body)
-    expect(style.color).toBe('rgb(17, 17, 17)')
-  })
-
-  it('should set link color', () => {
-    expect(a.computedStyle.color).toBe('rgb(0, 119, 204)')
   })
 
   it('should set image max-width', () => {

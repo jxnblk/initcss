@@ -86,6 +86,7 @@ button {
   height: 2.5em;
   margin: 0;
   padding: .5em 1em;
+  border: 0;
 }
 table {
   border-collapse: separate;
@@ -104,21 +105,9 @@ th {
   text-align: left;
   font-weight: 700;
   vertical-align: bottom;
-  /*
-  border-bottom: 1px solid;
-  */
 }
 
 td {
   vertical-align: top;
-  /*
-  border-bottom: 1px solid;
-  */
 }
-
-/*
-tr:last-child td {
-  border-bottom: 0;
-}
-*/
 

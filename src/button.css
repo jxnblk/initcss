@@ -8,5 +8,6 @@ button {
   height: var(--scale-4);
   margin: 0;
   padding: var(--scale-1) var(--scale-2);
+  border: 0;
 }
 

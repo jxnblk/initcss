@@ -28,7 +28,7 @@ describe('typography.css', () => {
   pre.textContent = 'pre'
 
   it('should set h1 font-weight', () => {
-    expect(h1.computedStyle.fontWeight).toBe('600')
+    expect(h1.computedStyle.fontWeight).toBe('700')
   })
 
   it('should set h1 line-height', () => {
@@ -71,18 +71,6 @@ describe('typography.css', () => {
 
   it('should set ul padding-left', () => {
     expect(ul.computedStyle.paddingLeft).toBe('40px')
-  })
-
-  it('should set code border-radius', () => {
-    expect(code.computedStyle.borderTopRightRadius).toBe('3px')
-  })
-
-  it('should set pre border-left-width', () => {
-    expect(pre.computedStyle.borderLeftWidth).toBe('3px')
-  })
-
-  it('should set blockquote border-left-width', () => {
-    expect(blockquote.computedStyle.borderLeftWidth).toBe('3px')
   })
 
   it('should set hr border-bottom-width', () => {

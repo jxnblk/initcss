@@ -6,5 +6,6 @@ button {
   height: 2.5em;
   margin: 0;
   padding: .5em 1em;
+  border: 0;
 }
 

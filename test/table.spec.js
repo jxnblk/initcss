@@ -21,11 +21,7 @@ describe('table.css', () => {
   })
 
   it('should set th font-weight', () => {
-    expect(th.computedStyle.fontWeight).toBe('600')
-  })
-
-  it('should set th border-bottom', () => {
-    expect(th.computedStyle.borderBottomWidth).toBe('3px')
+    expect(th.computedStyle.fontWeight).toBe('700')
   })
 
   it('should set td vertical-align', () => {

@@ -16,21 +16,9 @@ th {
   text-align: left;
   font-weight: 700;
   vertical-align: bottom;
-  /*
-  border-bottom: 1px solid;
-  */
 }
 
 td {
   vertical-align: top;
-  /*
-  border-bottom: 1px solid;
-  */
 }
-
-/*
-tr:last-child td {
-  border-bottom: 0;
-}
-*/
 
