@@ -1,4 +1,6 @@
 
+@import './defaults.css';
+
 table {
   border-collapse: separate;
   border-spacing: 0;
@@ -16,16 +18,9 @@ th {
   text-align: left;
   font-weight: var(--bold);
   vertical-align: bottom;
-  border-bottom: 1px solid;
 }
 
 td {
   vertical-align: top;
-  border-bottom: 1px solid;
 }
 
-tr:last-child td {
-  border-bottom: 0;
-}
-
-@import 'defaults.css';

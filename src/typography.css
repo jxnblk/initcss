@@ -1,4 +1,6 @@
 
+@import './defaults.css';
+
 h1, h2, h3,
 h4, h5, h6 {
   font-weight: var(--bold);
@@ -31,11 +33,13 @@ pre {
 
 code, samp {
   font-size: inherit;
+  font-size: 87.5%;
   padding: var(--scale-0);
 }
 
 pre {
   font-size: inherit;
+  font-size: 87.5%;
   overflow: auto;
 }
 
@@ -52,4 +56,3 @@ hr {
   border-bottom: 1px solid;
 }
 
-@import 'defaults.css';

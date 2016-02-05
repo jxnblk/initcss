@@ -1,4 +1,6 @@
 
+@import './defaults.css';
+
 button {
   font-family: inherit;
   font-size: inherit;
@@ -6,8 +8,5 @@ button {
   height: var(--scale-4);
   margin: 0;
   padding: var(--scale-1) var(--scale-2);
-  border-radius: var(--radius);
-  border: 1px solid;
 }
 
-@import 'defaults.css';

@@ -1,4 +1,6 @@
 
+@import './defaults.css';
+
 * {
   box-sizing: border-box;
 }
@@ -25,4 +27,3 @@ svg {
   max-height: 100%;
 }
 
-@import 'defaults.css';
