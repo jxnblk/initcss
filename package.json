@@ -1,6 +1,6 @@
 {
   "name": "initcss",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple, opinionated base styles for building websites",
   "main": "index.js",
   "scripts": {
