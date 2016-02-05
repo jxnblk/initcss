@@ -2,9 +2,9 @@
 
 Smart defaults for styling websites
 
-- Base styles for body, typography, buttons, forms, and tables
+- Base styles for body, typography, buttons, and tables
 - No color styles
-- 1.9KB
+- 1.06KB
 
 http://jxnblk.com/initcss
 
