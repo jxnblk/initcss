@@ -15,4 +15,3 @@ npm i initcss
 ```
 
 MIT License
-
