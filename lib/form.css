@@ -1,3 +1,4 @@
+/* Forms WIP */
 
 form {
   margin-bottom: 1em;
@@ -24,7 +25,7 @@ legend {
 }
 
 label,
-input[type=text],
+input,
 select,
 textarea {
   display: block;
@@ -42,8 +43,6 @@ input[type=text] {
   height: 2.5em;
   padding: .5em;
   margin-bottom: 1em;
-  border-radius: 3px;
-  border: 1px solid;
 }
 
 input[type=checkbox] {
@@ -63,14 +62,11 @@ input[type=radio] {
 textarea {
   padding: .5em;
   margin-bottom: 1em;
-  border-radius: 3px;
-  border: 1px solid;
 }
 
 select {
   height: 2.5em;
   padding: .5em;
   margin-bottom: 1em;
-  border-radius: 3px;
-  border: 1px solid;
 }
+

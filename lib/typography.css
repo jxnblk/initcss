@@ -31,11 +31,13 @@ pre {
 
 code, samp {
   font-size: inherit;
+  font-size: 87.5%;
   padding: .125em;
 }
 
 pre {
   font-size: inherit;
+  font-size: 87.5%;
   overflow: auto;
 }
 
@@ -51,3 +53,4 @@ hr {
   border: 0;
   border-bottom: 1px solid;
 }
+

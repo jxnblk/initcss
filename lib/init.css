@@ -57,11 +57,13 @@ pre {
 
 code, samp {
   font-size: inherit;
+  font-size: 87.5%;
   padding: .125em;
 }
 
 pre {
   font-size: inherit;
+  font-size: 87.5%;
   overflow: auto;
 }
 
@@ -84,83 +86,6 @@ button {
   height: 2.5em;
   margin: 0;
   padding: .5em 1em;
-  border-radius: 3px;
-  border: 1px solid;
-}
-form {
-  margin-bottom: 1em;
-}
-
-input,
-select,
-textarea {
-  font-family: inherit;
-  font-size: inherit;
-}
-
-fieldset {
-  padding: 0;
-  margin-left: 0;
-  margin-right: 0;
-  border: 0;
-}
-
-legend {
-  font-size: 1.25rem;
-  font-weight: 700;
-  padding: 0;
-}
-
-label,
-input[type=text],
-select,
-textarea {
-  display: block;
-  width: 100%;
-}
-
-label {
-  font-size: .875rem;
-  font-weight: 700;
-  margin-top: 1em;
-  margin-bottom: .5em;
-}
-
-input[type=text] {
-  height: 2.5em;
-  padding: .5em;
-  margin-bottom: 1em;
-  border-radius: 3px;
-  border: 1px solid;
-}
-
-input[type=checkbox] {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0;
-  margin-right: .5em;
-}
-
-input[type=radio] {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0;
-  margin-right: .5em;
-}
-
-textarea {
-  padding: .5em;
-  margin-bottom: 1em;
-  border-radius: 3px;
-  border: 1px solid;
-}
-
-select {
-  height: 2.5em;
-  padding: .5em;
-  margin-bottom: 1em;
-  border-radius: 3px;
-  border: 1px solid;
 }
 table {
   border-collapse: separate;
@@ -179,15 +104,21 @@ th {
   text-align: left;
   font-weight: 700;
   vertical-align: bottom;
+  /*
   border-bottom: 1px solid;
+  */
 }
 
 td {
   vertical-align: top;
+  /*
   border-bottom: 1px solid;
+  */
 }
 
+/*
 tr:last-child td {
   border-bottom: 0;
 }
+*/
 
