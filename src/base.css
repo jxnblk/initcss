@@ -18,9 +18,18 @@ body {
   margin: 0;
 }
 
-img {
+/* Fluid images.
+ */
+img{
   max-width: 100%;
-  height: auto;
+}
+
+/**
+ * Non-fluid images if you specify `width` and/or `height` attributes.
+ */
+img[width],
+img[height]{
+  max-width: none;
 }
 
 svg {
